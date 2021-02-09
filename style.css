@@ -1,0 +1,272 @@
+body {
+  height: 100vh;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  height: 522px;
+  width: 1400px;
+  margin: 0 auto;
+}
+span.nav {
+  height: 100px;
+  width: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.nav > div{
+  display: inline-flex;
+  justify-content: space-evenly;
+}
+.nav-left {
+  font-family: monospace;
+  font-size: 24px;
+  display: inline-block;
+}
+.nav-center {
+  display: inline-block;
+  height: 50px;
+  width: 500px;
+}
+.nav-right {
+  font-family: monospace;
+  font-size: 24px;
+  display: inline-block;
+}
+.title {
+  position: absolute;
+  font-family: monospace;
+  font-size: 32px;
+  color: #c1c2c4;
+  z-index: 1;
+  margin: -7px;
+}
+.name {
+  position: absolute;
+  font-family: cursive;
+  font-size: 32px;
+  z-index: 2;
+  padding: 10px;
+}
+
+div.banner {
+  background-image: url(img/banner.png);
+  height: 422px;
+  width: 1400px;
+  position: relative;
+}
+div#social {
+  position: absolute; 
+  right: 0;
+  bottom: 0;
+  height: 44px;
+  width: 260px;
+  margin: 10px 10px 10px 10px;
+  padding: 20px;
+}
+div.icon{
+  height: 41px;
+  width: 41px;
+  display: inline;
+}
+.icon > img{
+  display: inline;
+  height: 40px;
+  margin: 10px;
+}
+
+div.about {
+  height: 500px;
+  width: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-left {
+  height: 500px;
+  width: 500px;
+  background-color: rgb(205, 203, 203);
+}
+.shadow {
+  box-shadow: 10px 10px #43464b;
+  margin-top: 30px;
+  margin-left: 200px;
+}
+.about-right {
+  height: 500px;
+  width: 900px;
+}
+
+.about-right > h2 {
+  font-family: monospace;
+  font-size: 24px;
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: medium black solid;
+}
+.about-right > p {
+  font-family: monospace;
+  font-size: 18px;
+  padding-top: 20px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+div.portfolio {
+  height: 550px;
+  width: 1400px;
+  background-color: #fde3e3;
+}
+h6 {
+  font-family: monospace;
+  font-size: 24px;
+  margin: 0 0 0 0;
+  padding: 30px 0 0 170px;
+}
+.polaroid-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+div.polaroid {
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  border: medium solid rgb(176, 174, 174);
+  margin: 40px;
+}
+div.polaroid > p {
+  font-family: monospace;
+  margin: 20px 38px 20px 38px;
+}
+
+#project-img1 {
+  height: 220px;
+  width: 220px;
+  border: thin solid rgb(145, 144, 144);
+  margin: 38px 38px 0px 38px;
+  background-image: url(img/salmon-cookies.png);
+}
+#project-img2 {
+  height: 220px;
+  width: 220px;
+  border: thin solid rgb(145, 144, 144);
+  margin: 38px 38px 0px 38px;
+  background-image: url(img/busmall.png);
+}
+#project-img3 {
+  height: 220px;
+  width: 220px;
+  border: thin solid rgb(145, 144, 144);
+  margin: 38px 38px 0px 38px;
+  background-image: url(img/yoga.png);
+}
+button {
+  font-weight: bold;
+  font-size: 12px;
+  border: none;
+  background-color: #ffc7c7;
+  height: 30px;
+  width: 106px;
+  border-radius: 5px;
+  margin: 0 101px 0 101px;
+}
+
+button:hover {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 12px;
+  border: black thin solid;
+  background-color: #ffc7c7;
+  height: 30px;
+  width: 106px;
+  border-radius: 5px;
+  margin: 0 101px 0 101px;
+}
+
+div.resume {
+  width: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  font-family: monospace;
+  font-size: 60px;
+  margin: 0 0 0 0;
+}
+h2 {
+  font-family: monospace;
+  font-size: 24px;
+  margin: 0 0 50px 0;
+}
+h3 {
+  font-family: monospace;
+  font-size: 24px;
+  margin: 20px 0 20px 0;
+}
+h4 {
+  font-family: monospace;
+  font-size: 20px;
+  margin: 0 0 0 0;
+}
+h5 {
+  font-family: monospace;
+  font-size: 20px;
+  margin: 0 0 0 0;
+}
+ul {
+  margin: 0 0 0 0;
+}
+li {
+  font-family: monospace;
+  font-size: 18px;
+  margin: 0 0 0 0;
+}
+.resume-left {
+  width: 500px;
+  height: 1850px;
+  position: relative;
+}
+.resume-left-text {
+  font-family: monospace;
+  padding: 0 15px 30px 15px;
+}
+.ed-and-cert{
+  margin: 20px 0 20px 0;
+}
+.ed-and-cert-text {
+  font-size: 20px;
+  font-family: monospace;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+#resume-img {
+  width: 500px;
+  position: absolute;
+  bottom: 0;
+}
+.resume-right {
+  width: 900px;
+  height: 1850px;
+  background-color: rgb(205, 203, 203);
+}
+.resume-right-text {
+  font-family: monospace;
+  padding: 0 15px 0 15px;
+}
+.job {
+  padding: 0 0 15px 0;
+}
+.threeD {
+  font-family: monospace;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+  margin: 0 0 0 0;
+}
