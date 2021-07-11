@@ -1,6 +1,11 @@
-body {
-  height: 100vh;
-  width: 1400px;
+html {
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  padding: 0;
   margin: 0 auto;
 }
 
@@ -13,13 +18,13 @@ body {
 }
 
 header {
-  height: 522px;
-  width: 1400px;
+  height: 15%;
+  width: 100%;
   margin: 0 auto;
 }
 span.nav {
   height: 100px;
-  width: 1400px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -28,21 +33,17 @@ span.nav {
   display: inline-flex;
   justify-content: space-evenly;
 }
-.nav-left {
+.nav-left, .nav-right {
   font-family: monospace;
-  font-size: 24px;
+  font-size: 170%;
   display: inline-block;
 }
 .nav-center {
   display: inline-block;
-  height: 50px;
-  width: 500px;
+  height: 50%;
+  width: 50%;
 }
-.nav-right {
-  font-family: monospace;
-  font-size: 24px;
-  display: inline-block;
-}
+
 .title {
   position: absolute;
   font-family: monospace;
@@ -60,9 +61,11 @@ span.nav {
 }
 
 div.banner {
-  background-image: url(img/banner3.png);
-  height: 422px;
-  width: 1400px;
+  background-image: url(img/banner5.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  height: 350px; 
+  width: 100%;
   position: relative;
 }
 div#social {
@@ -86,31 +89,29 @@ a > img{
 }
 
 div.about {
-  height: 500px;
-  width: 1400px;
+  width: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 .about-left {
-  height: 500px;
-  width: 500px;
-  background-color: rgb(235, 235, 235);
+  width: 35%;
+  background-color: #f8f8f8;
 }
 .shadow {
   box-shadow: 10px 10px #43464b;
-  margin-top: 30px;
-  margin-left: 200px;
+  margin-top: 5%;
+  margin-left: 25%;
+  /* height: 90%; */
+  width: 90%;
 }
 .about-right {
-  height: 500px;
-  width: 900px;
+  width: 65%;
 }
 
 .about-right > h2 {
   font-family: monospace;
-  font-size: 24px;
-  width: 400px;
+  font-size: 2vw;
+  width: 45%;
   margin: 0 auto;
   padding-top: 30px;
   padding-bottom: 10px;
@@ -118,15 +119,14 @@ div.about {
 }
 .about-right > p {
   font-family: monospace;
-  font-size: 18px;
-  padding-top: 20px;
-  width: 400px;
+  font-size: 1.5vw;
+  padding: 20px 0 20px 0;
+  width: 45%;
   margin: 0 auto;
 }
 
 div.portfolio {
-  height: 550px;
-  width: 1400px;
+  width: 100%;
   background-color: #fde3e3;
 }
 h6 {
@@ -137,9 +137,7 @@ h6 {
 }
 .polaroid-wrapper {
   display: flex;
-  align-items: center;
   justify-content: center;
-
 }
 div.polaroid {
   height: 400px;
@@ -196,9 +194,8 @@ button:hover {
 }
 
 div.resume {
-  width: 1400px;
+  width: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 h1 {
@@ -235,8 +232,7 @@ li {
   margin: 0 0 0 0;
 }
 .resume-left {
-  width: 500px;
-  height: 1850px;
+  width: 35%;
   position: relative;
 }
 .resume-left-text {
@@ -253,8 +249,6 @@ li {
   margin: 0 0 0 0;
 }
 div#connect{
-  height: 100px;
-  width: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -271,9 +265,9 @@ div#connect{
   bottom: 0;
 }
 .resume-right {
-  width: 900px;
-  height: 1850px;
-  background-color: rgb(235, 235, 235);
+  width: 65%;
+  padding: 0 30px 0 30px;
+  background-color: #f8f8f8;
 }
 .resume-right-text {
   font-family: monospace;
@@ -288,6 +282,7 @@ div#connect{
   font-style: italic;
   font-weight: bold;
   margin: 0 0 0 0;
+  padding-top: 5px;
 }
 
 .grey {
