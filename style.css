@@ -328,6 +328,10 @@ button:hover {
     margin-bottom: 20px;
   }
 
+  .mobile{
+    display: block;
+  }
+
 }
 
 /* ===== RESUME DESKTOP ===== */
