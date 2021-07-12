@@ -280,25 +280,55 @@ h6 {
   margin: 20px 38px 20px 38px;
 }
 
-#project-img1 {
+#project-img1,
+#project-img2,
+#project-img3, 
+#project-img4,
+#project-img5,
+#project-img6,
+#project-img7,
+#project-img8,
+#project-img9{
   height: 220px;
   width: 220px;
   margin: 38px 38px 0px 38px;
-  background-image: url(img/salmon-cookies.png);
+  box-shadow: inset 0 0 10px rgba(0,0,0,0.1);
+}
+
+#project-img1 {
+  background-image: url(img/img1.jpeg);
 }
 
 #project-img2 {
-  height: 220px;
-  width: 220px;
-  margin: 38px 38px 0px 38px;
-  background-image: url(img/busmall.png);
+  background-image: url(img/img2.jpeg);
 }
 
 #project-img3 {
-  height: 220px;
-  width: 220px;
-  margin: 38px 38px 0px 38px;
-  background-image: url(img/yoga.png);
+  background-image: url(img/img3.png);
+}
+
+#project-img4 {
+  background-image: url(img/img4.jpeg);
+}
+
+#project-img5 {
+  background-image: url(img/img5.jpeg);
+}
+
+#project-img6 {
+  background-image: url(img/img6.jpeg);
+}
+
+#project-img7 {
+  background-image: url(img/img7.jpeg);
+}
+
+#project-img8 {
+  background-image: url(img/img8.jpeg);
+}
+
+#project-img9 {
+  background-image: url(img/img9.png);
 }
 
 button {
