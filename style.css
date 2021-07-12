@@ -331,6 +331,10 @@ h6 {
   background-image: url(img/img9.png);
 }
 
+.project-title{
+  font-weight: bold;
+}
+
 button {
   font-weight: bold;
   font-size: 10px;
