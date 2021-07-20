@@ -42,7 +42,12 @@ body {
 
 /* ===== HEADER DESKTOP ===== */
 header > span > div > a, footer > span > div > a {
-  padding: 0 35px 0 35px;
+  margin: 0 35px 0 35px;
+}
+
+header > span > div > a:hover, footer > span > div > a:hover {
+  margin: 0 35px 0 35px;
+  background-color: rgb(219, 241, 250, 0.6);
 }
 
 header {
